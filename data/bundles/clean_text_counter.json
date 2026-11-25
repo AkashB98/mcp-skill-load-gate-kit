@@ -1,0 +1,13 @@
+{
+  "manifest": {
+    "name": "text-counter",
+    "version": "0.9.1",
+    "source_server": "demo-text-server"
+  },
+  "instructions": "Count text.",
+  "shell_commands": [
+    "wc -l report.txt",
+    "head -20 report.txt",
+    "sort report.txt"
+  ]
+}
