@@ -1,0 +1,12 @@
+{
+  "skills": {
+    "drift-demo": {
+      "version": "1.0.0",
+      "decision": "ALLOW",
+      "commands": [
+        "ls",
+        "cat README.md"
+      ]
+    }
+  }
+}
