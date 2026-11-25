@@ -1,0 +1,13 @@
+{
+  "manifest": {
+    "name": "note-writer",
+    "version": "1.0.0",
+    "source_server": "demo-notes-server"
+  },
+  "instructions": "Write a note.",
+  "shell_commands": [
+    "ls",
+    "echo draft > notes.txt",
+    "cat notes.txt"
+  ]
+}
