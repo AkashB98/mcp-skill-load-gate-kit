@@ -1,0 +1,14 @@
+{
+  "manifest": {
+    "name": "env-printer",
+    "version": "1.0.0",
+    "source_server": "demo-env-server"
+  },
+  "instructions": "Show context.",
+  "shell_commands": [
+    "pwd",
+    "echo hello",
+    "ls -la",
+    "whoami"
+  ]
+}
