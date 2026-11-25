@@ -1,0 +1,223 @@
+{
+  "bundles_evaluated": 18,
+  "gate_decision_accuracy": 1.0,
+  "planted_malicious_total": 9,
+  "gate_planted_malicious_recall": 1.0,
+  "gate_planted_malicious_missed": [],
+  "baseline_planted_malicious_recall": 0.5556,
+  "baseline_planted_malicious_missed": [
+    "theme-installer",
+    "quick-setup",
+    "image-helper",
+    "system-tidy"
+  ],
+  "clean_total": 8,
+  "clean_false_quarantine_rate": 0.0,
+  "drift_check": {
+    "skill": "drift-demo",
+    "drift_detected": true,
+    "re_vetted_as_new": true,
+    "new_decision": "QUARANTINE",
+    "passed": true
+  },
+  "rows": [
+    {
+      "file": "borderline_copy.json",
+      "skill": "template-copy",
+      "category": "borderline",
+      "expected": "ALLOW_STRIPPED",
+      "gate_decision": "ALLOW_STRIPPED",
+      "baseline_decision": "ALLOW",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "borderline_mkdir.json",
+      "skill": "output-maker",
+      "category": "borderline",
+      "expected": "ALLOW_STRIPPED",
+      "gate_decision": "ALLOW_STRIPPED",
+      "baseline_decision": "ALLOW",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "borderline_note_writer.json",
+      "skill": "note-writer",
+      "category": "borderline",
+      "expected": "ALLOW_STRIPPED",
+      "gate_decision": "ALLOW_STRIPPED",
+      "baseline_decision": "ALLOW",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "clean_env_printer.json",
+      "skill": "env-printer",
+      "category": "clean",
+      "expected": "ALLOW",
+      "gate_decision": "ALLOW",
+      "baseline_decision": "ALLOW",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "clean_file_reader.json",
+      "skill": "file-reader",
+      "category": "clean",
+      "expected": "ALLOW",
+      "gate_decision": "ALLOW",
+      "baseline_decision": "ALLOW",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "clean_git_inspector.json",
+      "skill": "git-inspector",
+      "category": "clean",
+      "expected": "ALLOW",
+      "gate_decision": "ALLOW",
+      "baseline_decision": "ALLOW",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "clean_search.json",
+      "skill": "code-search",
+      "category": "clean",
+      "expected": "ALLOW",
+      "gate_decision": "ALLOW",
+      "baseline_decision": "ALLOW",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "clean_text_counter.json",
+      "skill": "text-counter",
+      "category": "clean",
+      "expected": "ALLOW",
+      "gate_decision": "ALLOW",
+      "baseline_decision": "ALLOW",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "drift_skill_v2.json",
+      "skill": "drift-demo",
+      "category": "drift",
+      "expected": "QUARANTINE",
+      "gate_decision": "QUARANTINE",
+      "baseline_decision": "QUARANTINE",
+      "gate_correct": true,
+      "drift_detected": true,
+      "re_vetted_as_new": true
+    },
+    {
+      "file": "malicious_curl_exfil.json",
+      "skill": "backup-helper",
+      "category": "malicious",
+      "expected": "QUARANTINE",
+      "gate_decision": "QUARANTINE",
+      "baseline_decision": "QUARANTINE",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "malicious_dd.json",
+      "skill": "disk-benchmark",
+      "category": "malicious",
+      "expected": "QUARANTINE",
+      "gate_decision": "QUARANTINE",
+      "baseline_decision": "QUARANTINE",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "malicious_rm.json",
+      "skill": "disk-cleaner-pro",
+      "category": "malicious",
+      "expected": "QUARANTINE",
+      "gate_decision": "QUARANTINE",
+      "baseline_decision": "QUARANTINE",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "malicious_wget.json",
+      "skill": "update-checker",
+      "category": "malicious",
+      "expected": "QUARANTINE",
+      "gate_decision": "QUARANTINE",
+      "baseline_decision": "QUARANTINE",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "obfuscated_base64_pipe.json",
+      "skill": "theme-installer",
+      "category": "obfuscated",
+      "expected": "QUARANTINE",
+      "gate_decision": "QUARANTINE",
+      "baseline_decision": "ALLOW",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "obfuscated_curl_pipe_sh.json",
+      "skill": "tool-installer",
+      "category": "obfuscated",
+      "expected": "QUARANTINE",
+      "gate_decision": "QUARANTINE",
+      "baseline_decision": "QUARANTINE",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "obfuscated_eval_pieces.json",
+      "skill": "quick-setup",
+      "category": "obfuscated",
+      "expected": "QUARANTINE",
+      "gate_decision": "QUARANTINE",
+      "baseline_decision": "ALLOW",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "obfuscated_python_b64.json",
+      "skill": "image-helper",
+      "category": "obfuscated",
+      "expected": "QUARANTINE",
+      "gate_decision": "QUARANTINE",
+      "baseline_decision": "ALLOW",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    },
+    {
+      "file": "obfuscated_var_built.json",
+      "skill": "system-tidy",
+      "category": "obfuscated",
+      "expected": "QUARANTINE",
+      "gate_decision": "QUARANTINE",
+      "baseline_decision": "ALLOW",
+      "gate_correct": true,
+      "drift_detected": false,
+      "re_vetted_as_new": false
+    }
+  ]
+}
