@@ -1,0 +1,74 @@
+{
+  "clean_file_reader.json": {
+    "category": "clean",
+    "expected": "ALLOW"
+  },
+  "clean_git_inspector.json": {
+    "category": "clean",
+    "expected": "ALLOW"
+  },
+  "clean_text_counter.json": {
+    "category": "clean",
+    "expected": "ALLOW"
+  },
+  "clean_env_printer.json": {
+    "category": "clean",
+    "expected": "ALLOW"
+  },
+  "clean_search.json": {
+    "category": "clean",
+    "expected": "ALLOW"
+  },
+  "borderline_note_writer.json": {
+    "category": "borderline",
+    "expected": "ALLOW_STRIPPED"
+  },
+  "borderline_mkdir.json": {
+    "category": "borderline",
+    "expected": "ALLOW_STRIPPED"
+  },
+  "borderline_copy.json": {
+    "category": "borderline",
+    "expected": "ALLOW_STRIPPED"
+  },
+  "malicious_rm.json": {
+    "category": "malicious",
+    "expected": "QUARANTINE"
+  },
+  "malicious_curl_exfil.json": {
+    "category": "malicious",
+    "expected": "QUARANTINE"
+  },
+  "malicious_dd.json": {
+    "category": "malicious",
+    "expected": "QUARANTINE"
+  },
+  "malicious_wget.json": {
+    "category": "malicious",
+    "expected": "QUARANTINE"
+  },
+  "obfuscated_base64_pipe.json": {
+    "category": "obfuscated",
+    "expected": "QUARANTINE"
+  },
+  "obfuscated_eval_pieces.json": {
+    "category": "obfuscated",
+    "expected": "QUARANTINE"
+  },
+  "obfuscated_var_built.json": {
+    "category": "obfuscated",
+    "expected": "QUARANTINE"
+  },
+  "obfuscated_python_b64.json": {
+    "category": "obfuscated",
+    "expected": "QUARANTINE"
+  },
+  "obfuscated_curl_pipe_sh.json": {
+    "category": "obfuscated",
+    "expected": "QUARANTINE"
+  },
+  "drift_skill_v2.json": {
+    "category": "drift",
+    "expected": "QUARANTINE"
+  }
+}
