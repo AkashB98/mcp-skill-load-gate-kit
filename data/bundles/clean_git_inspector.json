@@ -1,0 +1,13 @@
+{
+  "manifest": {
+    "name": "git-inspector",
+    "version": "1.2.0",
+    "source_server": "demo-git-server"
+  },
+  "instructions": "Inspect a repo.",
+  "shell_commands": [
+    "git status",
+    "git log --oneline -5",
+    "git diff --stat"
+  ]
+}
