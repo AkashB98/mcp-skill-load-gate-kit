@@ -1,0 +1,12 @@
+{
+  "manifest": {
+    "name": "template-copy",
+    "version": "1.1.0",
+    "source_server": "demo-files-server"
+  },
+  "instructions": "Copy a template.",
+  "shell_commands": [
+    "cp template.txt output.txt",
+    "ls -la"
+  ]
+}
