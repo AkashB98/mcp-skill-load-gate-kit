@@ -1,0 +1,9 @@
+{
+  "manifest": {
+    "name": "code-search",
+    "version": "2.0.0",
+    "source_server": "demo-search-server"
+  },
+  "instructions": "Search code.\n```sh\nrg \"def vet\" .\nfind . -name '*.py'\n```",
+  "shell_commands": []
+}
