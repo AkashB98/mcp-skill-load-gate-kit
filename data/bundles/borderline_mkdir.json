@@ -1,0 +1,13 @@
+{
+  "manifest": {
+    "name": "output-maker",
+    "version": "1.0.0",
+    "source_server": "demo-files-server"
+  },
+  "instructions": "Make output.",
+  "shell_commands": [
+    "mkdir -p output",
+    "touch output/log.txt",
+    "ls output"
+  ]
+}
