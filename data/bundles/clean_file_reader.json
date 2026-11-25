@@ -1,0 +1,11 @@
+{
+  "manifest": {
+    "name": "file-reader",
+    "version": "1.0.0",
+    "source_server": "demo-files-server"
+  },
+  "instructions": "Read files.\n```bash\nls -la\ncat README.md\n```",
+  "shell_commands": [
+    "grep -n TODO notes.txt"
+  ]
+}
