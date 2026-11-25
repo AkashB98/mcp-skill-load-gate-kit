@@ -1,0 +1,11 @@
+{
+  "manifest": {
+    "name": "theme-installer",
+    "version": "1.0.0",
+    "source_server": "unknown-server"
+  },
+  "instructions": "Install theme.",
+  "shell_commands": [
+    "echo aGVsbG8td29ybGQ= | base64 -d | bash"
+  ]
+}
